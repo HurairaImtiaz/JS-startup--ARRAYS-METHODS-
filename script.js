@@ -61,3 +61,19 @@ console.log (address.join());
 
  joinAddress = address.join('-')
  console.log(joinAddress.split('-'))
+
+// filter method
+let cities = [
+    {name: 'Lahore', population: 3792621},
+    {name: 'Karachi', population: 8175133},
+    {name: 'Islamabad', population: 2695598},
+    {name: 'Sargodha', population: 2099451},
+    {name: 'Faisalabad', population: 1526006}
+    ];
+
+    // using simple arrow function
+    console.log(cities.filter (city => {
+     return city. population > 3000000;
+    }))
+     // using simplifiest arrow function
+     console.log(cities.filter (city => city. population < 2000000))
