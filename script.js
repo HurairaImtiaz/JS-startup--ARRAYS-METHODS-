@@ -56,3 +56,8 @@ console.log (address.join());
 // example 2 
  console.log(address.join( ' '))
  console.log(address.join( '-'))
+
+ // split method 
+
+ joinAddress = address.join('-')
+ console.log(joinAddress.split('-'))
