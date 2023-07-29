@@ -1,1 +1,1 @@
-console.log(numbersArray);
+console.log(concatArray.slice(2,5))

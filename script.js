@@ -26,5 +26,21 @@ const animalNames = [ 'lion' , 'tiger', 'horse' , 'hen' , 'lion', 'hen'];
 console.log(animalNames.indexOf('lion'));
 console.log(animalNames.indexOf('lion',1));
 
+// concat methd is used to to add two strings (by  name , by elememts)
 
+let name1 = ['ali', 'umar' , 'ayesha ', 'laiba']
+let name2 = ['sonia ',' noor','hashim']
+var concatArray = name1.concat(name2);
+console.log(concatArray);
 
+// Slice methd is used to to separate two strings (or remove something from array)
+// (syntax me apko starting index dena hoga jhan se pehly ki sb values remove hjyngi
+// or ending index bhi dena hoga jisse agy ki values remove hngi 
+
+// console.log(concatArray.slice(2));
+console.log(concatArray.slice(2,5))
+
+// Spread oprator (ye bhi do arrays ko jorny ka ksm deta hai)
+
+var spread = [...name1,...name2]
+console.log(spread)
