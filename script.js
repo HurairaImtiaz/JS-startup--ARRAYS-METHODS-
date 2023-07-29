@@ -44,3 +44,15 @@ console.log(concatArray.slice(2,5))
 
 var spread = [...name1,...name2]
 console.log(spread)
+ 
+// join method( ye string ko jorny kelie istmal hta hai )
+// agar join simple example 1 ki trah estmal krogy to comma ayega har string k bad 
+// exapmle 2 me separater ki mdad se comma ni ayega or jo as a separator ap do gy wo ayega
+
+// example 1
+var address = ['street 16', 'mansoorabad', 'FSD'];
+console.log (address.join());
+
+// example 2 
+ console.log(address.join( ' '))
+ console.log(address.join( '-'))
